@@ -20,64 +20,62 @@
   height: 12px;
   width: 12px;
   float: left;
-  padding-top: 18px;
+  padding-top: 20px;
 }
 
 .header a{
   color: white;
   font-weight: bold;
   float: left;
-  padding-top: 15px;
+  padding-top: 17px;
   padding-left: 3px;
+}
+
+.header a:visited{
+    color: white;
 }
 
 .header .phone{
   float:left;
   padding-right: 2px;
-  padding-top: 15px;
+  padding-top: 18px;
 }
 
 .header .phonenumber{
   color: white;
-  padding-top: 15px;
+  padding-top: 19px;
   float: left;
   font-size: 13px;
 }
 
-.hello{
-  background-color: #f3b871;
-  margin-bottom: 20px;
+.container.card{
+    background-image: url('https://razmestim100.ru/content/images/ng2017.jpg');
+    background-position: left bottom;
+    //padding-top: 50px;
+    //padding-bottom: 25px;
 }
 
-.hello h4{
-  color:white;
-  text-align: center;
-  padding-top: 22px;
+.row.text {
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 
-.text p, .text ul{
+.text p{
   // padding: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-top: 5px;
-  // padding-bottom: 5px;
-  color: #333;
-  font-size: 14px;
+  //padding-bottom: 25px;
+  color: white;
+  font-size: 22px;
   text-align: justify;
+  text-shadow: 1px 1px 10px #000000;
+  font-family: Verdana;
 }
 
-.text ul{
-  padding-left: 25px;
-  padding-right: 25px;
-  font-size: 14px;
-}
-
-.action p, .action h5{
-  text-align: center;
-}
-
-.action p{
-  font-size: 13px;
+.text p a{
+    color: white;
+    text-decoration: underline;
 }
 
 .footer p{
@@ -90,4 +88,8 @@
 .footer p a{
   color: white;
   text-decoration: underline;
+}
+
+.footer p a:visited{
+  color: white;
 }
